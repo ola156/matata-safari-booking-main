@@ -85,8 +85,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Matata MT Tours — Luxury Kenya Safaris & Coastal Escapes" },
       { name: "twitter:description", content: "Tailor-made luxury game drives in Maasai Mara, Amboseli, Tsavo, plus Kilifi & Diani beach escapes. Native Kenyan guides. Book on WhatsApp." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/813225e2-0e14-492d-84dd-13c6e379dace/id-preview-50e3566a--c4ec893c-c2e1-45db-b6df-c503126718ce.lovable.app-1784652844868.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/813225e2-0e14-492d-84dd-13c6e379dace/id-preview-50e3566a--c4ec893c-c2e1-45db-b6df-c503126718ce.lovable.app-1784652844868.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
