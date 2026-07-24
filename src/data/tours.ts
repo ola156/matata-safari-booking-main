@@ -15,7 +15,7 @@ export interface TourItem {
   featuredAccommodation?: string[];
   image?: string;
   description?: string;
-}
+};
 
 export const CONTACT_INFO = {
   primaryPhone: "+254715268098",
@@ -32,7 +32,7 @@ export const EXCURSIONS: TourItem[] = [
     price: "$100 USD per person",
     priceValue: 100,
     image: "dolphin-2.jpg",
-    description: "Dolphin boat experience in Watamu.",
+    description: "Expert Guide",
   },
   {
     id: "safari-blue-wasini",
@@ -42,7 +42,7 @@ export const EXCURSIONS: TourItem[] = [
     price: "$100 USD per person",
     priceValue: 100,
     image: "dolphin-2.jpg",
-    description: "Dhow cruise and dolphin spotting in Wasini.",
+    description: "Expert Guide",
   },
   {
     id: "tsavo-east-express",
@@ -54,7 +54,7 @@ export const EXCURSIONS: TourItem[] = [
     priceUSD: 200,
     priceUnit: "per person",
     image: "g-jeep (2).jpg",
-    description: "A fast-paced day trip into Tsavo East.",
+    description: "Expert Guide",
   },
 ];
 
@@ -76,7 +76,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
       "Game drives in Tsavo East National Park",
       "Full board accommodation & park fees included",
     ],
-    description: "A compact Tsavo safari experience.",
+    description: "Expert Guide",
   },
   {
     id: "best-of-tsavo",
@@ -86,7 +86,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
     price: "$450 USD per person",
     priceValue: 450,
     image: "g-tour-guide.jpg",
-    description: "Highlights from Tsavo East and Tsavo West.",
+    description: "Expert Guide",
   },
   {
     id: "tsavo-amboseli",
@@ -96,7 +96,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
     price: "$720 USD per person",
     priceValue: 720,
     image: "g-jeep.jpg",
-    description: "A classic wildlife circuit combining two iconic parks.",
+    description: "Expert Guide",
   },
   {
     id: "classic-safari",
@@ -113,7 +113,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
       "Boma Simba",
       "Lion Hill Safari Lodge",
     ],
-    description: "A balanced short safari with comfort and wildlife access.",
+    description: "Expert Guide",
   },
   {
     id: "explorer-safari",
@@ -130,7 +130,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
       "Boma Simba",
       "Lion Hill Safari Lodge",
     ],
-    description: "A broader exploration of Kenya’s top safari regions.",
+    description: "Expert Guide",
   },
   {
     id: "ultimate-safari",
@@ -147,7 +147,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
       "Boma Simba",
       "Lion Hill Safari Lodge",
     ],
-    description: "An immersive luxury safari journey.",
+    description: "Expert Guide",
   },
 ];
 
@@ -159,7 +159,7 @@ export const FLY_IN_SAFARIS: TourItem[] = [
     duration: "Fly-in",
     price: "Starting from $1,550 USD per person",
     priceValue: 1550,
-    description: "A premium fly-in safari to the Masai Mara.",
+    description: "Expert Guide",
   },
 ];
 
@@ -171,7 +171,7 @@ export const OPTIONAL_ADDONS: TourItem[] = [
     duration: "Optional Add-on",
     price: "Starting from $480 USD per person",
     priceValue: 480,
-    description: "A scenic balloon safari over the Mara plains.",
+    description: "Expert Guide",
   },
 ];
 

@@ -26,11 +26,13 @@ import {
 import heroImg from "@/assets/hero-safari.jpg";
 import logoImg from "@/assets/logo.jpg";
 import gZebra from "@/assets/g-zebra.jpg";
-import pkgAmboseli from "@/assets/g-landscape.jpg";
-import pkgBeach from "@/assets/g-safari-1.jpg";
-import gLion from "@/assets/g-lion (2).jpg";
-import gJeep from "@/assets/g-jeep (2).jpg";
-import gAntel from "@/assets/g-antel.jpg";
+import pkgAmboseli from "@/assets/pkg-amboseli.jpg";
+import gCheetah from "@/assets/g-cheetah.jpg";
+
+import gLion from "@/assets/g-lion.jpg";
+import gJeep from "@/assets/g-jeep.jpg";
+import pkaMara from "@/assets/pkg-mara.jpg";
+import pkgBeach1 from "@/assets/pkg-beach.jpg";
 import gFlyer from "@/assets/g-flyer.jpg";
 import gElephant from "@/assets/g-elephant.jpg";
 import gPool from "@/assets/g-pool.jpg";
@@ -40,7 +42,7 @@ import gSafari from "@/assets/g-safari.jpg";
 import gDolphin from "@/assets/dolphin.jpg";
 import gDolphin2 from "@/assets/dolphin-2.jpg";
 import gTiger from "@/assets/g-tiger.jpg";
-import gTour from "@/assets/g-desert.jpg";
+import gTour from "@/assets/g-sunset.jpg";
 import mombasaAir from "@/assets/mombasa_air.jpg";
 import mombasaAirSafari from "@/assets/mombasa_air_safari.jpg";
 import { CONTACT_INFO, TOURS_DATA } from "@/data/tours";
@@ -502,7 +504,7 @@ const getTourImage = (tourId: string) => {
     case "tsavo-east-express":
       return gJeep;
     case "flight-safari-mombasa-masai-mara":
-      return mombasaAirSafari;
+      return mombasaAir;
     case "hot-air-balloon":
       return gBalloon;
     case "tsavo-2-days":
@@ -510,7 +512,7 @@ const getTourImage = (tourId: string) => {
     case "classic-safari":
       return gLion;
     case "explorer-safari":
-      return gAntel;
+      return pkaMara;
     case "ultimate-safari":
       return gElephant;
       case "best-of-tsavo":
@@ -654,10 +656,10 @@ function Packages() {
 
 /* ---------------- Destinations ---------------- */
 const DEST_CARDS = [
-  { name: "Maasai Mara", tag: "Pop up roof 4x4 Jeep Land Cruiser", img: gSafari },
-  { name: "Diani & Watamu", tag: "Wildlife safari experience", img: gLion },
-  { name: "Tsavo East", tag: "Lion Hills / Boma Simba", img: gLandscape },
-  { name: "Kilifi & Diani Beach", tag: "Coastal Escape", img: pkgBeach },
+  { name: "Maasai Mara", tag: "Pop up roof 4x4 Jeep Land Cruiser", img: pkaMara },
+  { name: "Amboseli", tag: "Wildlife safari experience", img: pkgAmboseli },
+  { name: "Tsavo East", tag: "Lion Hills / Boma Simba", img: gElephant },
+  { name: "Kilifi & Diani Beach", tag: "Coastal Escape", img: pkgBeach1 },
 ];
 
 function Destinations() {
@@ -1011,13 +1013,12 @@ function Gallery() {
         subtitle="Real moments from real Matata journeys — bush to beach."
       />
       <div className="mx-auto mt-12 grid max-w-7xl grid-cols-4 grid-rows-[repeat(6,minmax(60px,auto))] gap-3 px-5 sm:gap-4 lg:px-8">
-        <GItem src={gZebra} alt="Zebra in the wild" className="col-span-2 row-span-3" />
-        <GItem src={mombasaAir} alt="Mombasa airport" className="col-span-2 row-span-2" />
+        <GItem src={gLion} alt="Zebra in the wild" className="col-span-2 row-span-3" />
+        <GItem src={gJeep} alt="Mombasa airport" className="col-span-2 row-span-2" />
         <GItem src={gFlyer} alt="Mombasa safari flyer" className="col-span-1 row-span-2" />
         <GItem src={gTour} alt="Elephant in the bush" className="col-span-1 row-span-2" />
-        <GItem src={gLion} alt="Lion at golden hour" className="col-span-2 row-span-2" />
-        <GItem src={gPool} alt="Coastal poolside escape" className="col-span-2 row-span-3" />
-        <GItem src={gSafari} alt="Coastal poolside escape" className="col-span-2 row-span-3" />
+        <GItem src={gCheetah} alt="Lion at golden hour" className="col-span-2 row-span-2" />
+        <GItem src={pkgBeach1} alt="Coastal poolside escape" className="col-span-2 row-span-3" />
       </div>
     </section>
   );
