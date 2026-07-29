@@ -657,7 +657,7 @@ function Packages() {
 
 /* ---------------- Destinations ---------------- */
 const DEST_CARDS = [
-  { name: "Maasai Mara", tag: "Pop up roof 4x4 Jeep Land Cruiser", img: pkaMara },
+  { name: "Maasai Mara", tag: "Wild Beast ", img: pkaMara },
   { name: "Amboseli", tag: "Wildlife safari experience", img: pkgAmboseli },
   { name: "Tsavo East", tag: "Lion Hills / Boma Simba", img: gElephant },
   { name: "Kilifi & Diani Beach", tag: "Coastal Escape", img: pkgBeach1 },
