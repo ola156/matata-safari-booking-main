@@ -25,26 +25,25 @@ import {
 } from "lucide-react";
 import heroImg from "@/assets/hero-safari.jpg";
 import logoImg from "@/assets/logo.jpg";
-import gZebra from "@/assets/g-zebra.jpg";
+import gLion1 from "@/assets/g-lion-1.jpg";
 import pkgAmboseli from "@/assets/pkg-amboseli.jpg";
 import gCheetah from "@/assets/g-cheetah.jpg";
-
 import gLion from "@/assets/g-lion.jpg";
 import gJeep from "@/assets/g-jeep.jpg";
 import pkaMara from "@/assets/pkg-mara.jpg";
 import pkgBeach1 from "@/assets/pkg-beach.jpg";
 import gFlyer from "@/assets/g-flyer.jpg";
 import gElephant from "@/assets/g-elephant.jpg";
-import gPool from "@/assets/g-pool.jpg";
+import gAntel from "@/assets/g-antel.jpg";
 import gBalloon from "@/assets/g-balloon.jpg";
 import gLandscape from "@/assets/g-landscape.jpg";
-import gSafari from "@/assets/g-safari.jpg";
+import gJeep1 from "@/assets/g-jeep-1.jpg";
 import gDolphin from "@/assets/dolphin.jpg";
 import gDolphin2 from "@/assets/dolphin-2.jpg";
 import gTiger from "@/assets/g-tiger.jpg";
 import gTour from "@/assets/g-sunset.jpg";
 import mombasaAir from "@/assets/mombasa_air.jpg";
-import mombasaAirSafari from "@/assets/mombasa_air_safari.jpg";
+import gCheetah1   from "@/assets/g-cheetah-1.jpg";
 import { CONTACT_INFO, TOURS_DATA } from "@/data/tours";
 
 const WHATSAPP = CONTACT_INFO.primaryPhone.replace(/\D/g, "");
@@ -512,11 +511,13 @@ const getTourImage = (tourId: string) => {
     case "classic-safari":
       return gLion;
     case "explorer-safari":
-      return pkaMara;
+      return gLion1;
+       case "explore-safari":
+      return gAntel;
     case "ultimate-safari":
-      return gElephant;
+      return gJeep1;
       case "best-of-tsavo":
-        return gTour;
+        return gCheetah1;
 
         case 'tsavo-amboseli':
         return gTiger;

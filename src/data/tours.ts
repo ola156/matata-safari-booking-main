@@ -80,7 +80,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
   },
   {
     id: "best-of-tsavo",
-    title: "3 Days The Best of Tsavo (East & West)",
+    title: " 3 Days / 2 Nights Tsavo East & West Overnight Voi Lodge & Ngulia",
     category: "multiday",
     duration: "3 Days",
     price: "$450 USD per person",
@@ -116,8 +116,25 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
     description: "Expert Guide",
   },
   {
+    id: "explore-safari",
+    title: "3 days 2 nights Masai Mara, (4x4 jeep, all-inclusive), Overnight Rhino camp / Lenchada.",
+    category: "multiday",
+    duration: "5 Days",
+    price: "$950 USD",
+    priceValue: 950,
+    priceUSD: 950,
+    priceUnit: "per package",
+    image: "g-jeep (3).jpeg",
+    featuredAccommodation: [
+      "Rhino camp",
+      "4x4 jeep inclusive",
+    ],
+    description: "Expert Guide",
+  },
+
+   {
     id: "explorer-safari",
-    title: "5-Day Mombasa to Tsavo East Safari",
+    title: "5 Days Tsavo East,West,Taita hills,Amboseli (mt kilimanjaro).",
     category: "multiday",
     duration: "5 Days",
     price: "$1,800 USD",
@@ -134,7 +151,7 @@ export const MULTI_DAY_SAFARIS: TourItem[] = [
   },
   {
     id: "ultimate-safari",
-    title: "7-Day Mombasa to Tsavo East Safari",
+    title: " 7 days Masai Mara,Lake Nakuru, Lake Naivasha,Amboseli( view mt kilimanjaro) Tsavo east.",
     category: "multiday",
     duration: "7 Days",
     price: "$3,850 USD",
